@@ -1,8 +1,8 @@
+import FirstTask from "./first-task/first-task";
 
 function App() {
     return (
-        <div> Hello, World!
-        </div>
+        <FirstTask />
     );
 }
 
