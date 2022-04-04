@@ -31,7 +31,7 @@ const FirstTask = () => {
             <form onSubmit={submitFormHandler}>
                 <div>
                     <label htmlFor="inputText">Username</label>
-                    <input type="text" id="inputText" value={userInputText} onChange={inputTextChangeHandler}></input>
+                    <input type="text" id="inputText" value={userInputText} onChange={inputTextChangeHandler}/>
                 </div>
                 <button type="submit">Display Output</button>
 
